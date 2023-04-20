@@ -1,0 +1,18 @@
+.not{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;font-size: 40px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    .not{
+        font-size: 10px;
+    }
+    
+}
